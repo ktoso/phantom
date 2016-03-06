@@ -154,13 +154,6 @@ module.exports = function(grunt) {
         pushTo: 'origin'
       }
     },
-    githubAsset: {
-      options: {
-        credentials: grunt.file.readJSON('credentials.json'),
-        repo: 'git@github.com:Bartinger/phantom.git',
-        file: 'phantom.zip'
-      }
-    },
     rsync: {
       options: {
         args: ['--verbose'],
